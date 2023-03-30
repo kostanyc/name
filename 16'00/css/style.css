@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #6666;
+}
+/* header
+------------------------------------------------------*/
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.link{
+    padding-right: 22px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+}
+/*intro
+--------------------------------------------------------*/
+.intro-inner{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.intro-text h1{
+    width: 530px;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.25px;
+    color: #4A4A4A;
+    padding-bottom: 30px;
+}
+.intro-text p{
+    width: 520px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #434A54;
+}
+.intro-text a{
+    letter-spacing: 0.25px;
+
+    color: #1D6FF3;
+}
+/*FLEX
+--------------------------------------------------------*/
+.flex-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .flex-text h1{
+        width: 530px;
+        font-size: 48px;
+        line-height: 58px;
+        letter-spacing: 0.25px;
+        color: #4A4A4A;
+        padding-bottom: 30px;
+    }
+    .flex-text p{
+        width: 520px;
+        font-size: 18px;
+        line-height: 30px;
+        color: #434A54;
+    }
+    .flex-text a{
+        letter-spacing: 0.25px;
+    
+        color: #1D6FF3;
+    }
+/*blog
+---------------------------------------------------------------*/
+.card{
+    position: relative;
+    padding-bottom: 200px;
+    
+}
+.card img{
+    width: 370px;
+}
+.div{
+    width: 280px;
+    background-color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    padding: 20px;
+}
+.div h2{
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.25px;
+    color: #4A4A4A;
+}
+.div p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #434A54;
+}
+.card-blog{
+    padding-bottom: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+/*reg
+--------------------------------------------------------------*/
+.reg{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #EEEEEE;
+}
+.reg-text h1{
+    padding-bottom: 30px;
+}
+.reg-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.from input{
+    padding: 10px;
+    width: 300px;
+    height: 22px; 
+    border-radius: 0;
+    border: 1px solid #2200ff;
+}
+.from button{
+    width: 120px;
+    height: 42px;
+}

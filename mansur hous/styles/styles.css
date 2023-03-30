@@ -1,0 +1,54 @@
+.container{
+    max-width: 1200px;
+    width:100%;
+    margin: 0 auto;
+}
+.header-menu{
+    align-items: center;
+    justify-content: space-between;
+}
+.header-inner{
+    text-align:center;
+    color: rgb(0, 0, 0);
+}
+.flex{
+    align-items: center;
+    text-align: center;
+}
+.img{
+    align-items: center;
+    justify-content: space-between;
+}
+.clock-img{
+    text-align: right;
+}
+.js{
+    text-align: center;
+     color: #9EA080;
+}
+.div-img{
+    text-align: center;
+    
+}
+.passat{
+   text-align: center;
+   align-items: center;
+}
+.op-img{
+    text-align: left;
+}
+.luck-img{
+    text-align: right;
+}
+.vs-img{
+    text-align: center;
+}
+.img{
+text-align: left;
+}
+.eng{
+    text-align: right;
+}
+.intel{
+    text-align: center;
+}
